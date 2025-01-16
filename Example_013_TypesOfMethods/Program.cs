@@ -52,15 +52,31 @@
 
 // Вид 4 - методы, которые принимают и  возвращают аргументы.
 
+// цикл While
+// string Method4(int count, string text)
+// {
+//     int i = 0;
+//     string result = String.Empty; // Пустая строка
+
+//     while (i < count)
+//     {
+//         result = result + text;
+//         i++;
+//     }
+//     return result;
+// }
+
+// string res = Method4(5, "QWERTY");
+// Console.WriteLine(res);
+
+// Цикл for
 string Method4(int count, string text)
 {
-    int i = 0;
     string result = String.Empty; // Пустая строка
 
-    while (i < count)
+    for(int i = 0; i < count; i++) // все аргументы цикла прописываются в скобках
     {
         result = result + text;
-        i++;
     }
     return result;
 }
